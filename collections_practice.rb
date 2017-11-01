@@ -33,3 +33,11 @@ end
 def find_a(array)
   array.select {|v| v[0] == "a"}
 end
+
+def sum_array(array)
+  sun = 0
+  array.each do |v|
+    sum += v
+  end
+  sum
+end
