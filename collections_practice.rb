@@ -29,3 +29,7 @@ def kesha_maker(array)
   end
   temp
 end
+
+def find_a(array)
+  array.select {|v| v[0] == "a"}
+end
