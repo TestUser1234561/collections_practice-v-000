@@ -45,7 +45,7 @@ end
 def add_s(array)
   temp = []
   array.each_with_index do |v, i|
-    if(i != 2)
+    if(i != 1)
       temp << "#{v}s"
     else
       temp << v
