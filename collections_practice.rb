@@ -27,4 +27,5 @@ def kesha_maker(array)
     element[2] ="$"
     temp << element
   end
+  temp
 end
