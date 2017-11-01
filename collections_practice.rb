@@ -41,3 +41,15 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  temp = []
+  array.each_with_index do |v, i|
+    if(i != 2)
+      temp << "#{v}s"
+    else
+      temp << v
+    end
+  end
+  temp
+end
